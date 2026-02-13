@@ -13,7 +13,7 @@ from sklearn.utils import resample
 
 # 1. Data Loading & Cleaning
 
-df = pd.read_csv("WA_Fn-UseC_-Telco-Customer-Churn.csv")
+df = pd.read_csv("dataset/WA_Fn-UseC_-Telco-Customer-Churn.csv")
 
 df.drop(columns=["customerID"], inplace=True)
 
